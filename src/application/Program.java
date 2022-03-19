@@ -15,6 +15,7 @@ public class Program {
 		ChessMatch chessmatch = new ChessMatch();
 		
 			while (true) {
+				UI.clearScreen();
 				UI.printBoard(chessmatch.getPieces());
 				System.out.println();
 				System.out.print("Source: ");
